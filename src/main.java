@@ -29,6 +29,8 @@ public class main {
         System.out.println("book3.name2 = " + book3.name2);
         System.out.println("book3.date2 = " + book3.date2);
 
+
+        // задание 7
         book3.setDate2(1990);
         System.out.println("book3.date2 = " + book3.date2);
 
