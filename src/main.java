@@ -1,14 +1,14 @@
 public class main {
     public static void main(String[] args) {
 
-        Book book = new Book("Fedor","Dostoevsky","Crime and Punishment",1866);
+        Book book = new Book("Crime and Punishment",1866);
+        Author author = new Author("Fedor","Dostoevsky");
         // задание 2
-        System.out.println("book.name = " + book.name);
-        System.out.println("book.lastName = " + book.lastName);
+
 
         // задание 4
-        System.out.println("book.getName() = " + book.getName());
-        System.out.println("book.getLastName() = " + book.getLastName());
+        System.out.println("author.getName() = " + author.getName());
+        System.out.println("author.getLastName() = " + author.getLastName());
         System.out.println("book.getBookName() = " + book.getBookName());
         System.out.println("book.getDate() = " + book.getDate());
 

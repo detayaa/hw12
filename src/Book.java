@@ -1,27 +1,19 @@
 public class Book {
-    String name;
-    String lastName;
-    int date;
-    String bookName;
+    public int date;
+    public String bookName;
 
 
 
 
 
 
-    public Book(String name, String lastName,String bookName, int date) {
-        this.name = name;
-        this.lastName = lastName;
+
+    public Book(String bookName, int date) {
+
         this.bookName = bookName;
         this.date = date;
     }
 
-    public String getName() {
-        return this.name;
-    }
-    public String getLastName() {
-        return this.lastName;
-    }
     public String getBookName() {
         return this.bookName;
     }
