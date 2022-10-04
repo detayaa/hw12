@@ -1,12 +1,12 @@
 public class Book {
     private final Author author;
-    public int date;
-    public String bookName;
+    private int date;
+    private final String bookName;
 
     @Override
     public String toString() {
         return "Book{" +
-                "author=" + author +
+                  author +
                 ", date=" + date +
                 ", bookName='" + bookName + '\'' +
                 '}';
